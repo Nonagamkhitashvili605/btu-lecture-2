@@ -1,0 +1,71 @@
+/* .with-flex {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: aquamarine;
+  height: 50px;
+}
+section {
+  display: flex;
+  height: 400px;
+}
+footer {
+  background-color: red;
+  height: 50px;
+}
+aside {
+  background-color: orange;
+  width: 40%;
+}
+article {
+  background-color: cadetblue;
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+img {
+  width: 100px;
+} */
+
+.div1 {
+  display: flex;
+  background-color: rgb(214, 209, 209);
+  width: 600px;
+  height: 400px;
+}
+.div2 {
+  background-color: aqua;
+  width: 50%;
+
+  margin: 10px;
+}
+.div3 {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  justify-content: center;
+}
+.div4 {
+  background-color: rgb(139, 86, 185);
+  height: 100px;
+  width: 100%;
+}
+.div4:first-child {
+  width: 100%;
+}
+.div4:last-child {
+  width: 100%;
+}
+.div5 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.div5 div {
+  width: 50%;
+}
